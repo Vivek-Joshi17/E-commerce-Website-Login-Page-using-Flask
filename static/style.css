@@ -1,0 +1,143 @@
+.logincontent{
+	margin: 0 auto;
+	height: 500px;
+	width: 400px;
+	background-color: #f0f37a;
+	border-radius: 10px;
+}
+
+.registercontent{
+	margin: 0 auto;
+	height: 720px;
+	width: 400px;
+	background-color: #fbfaf8;
+	border-radius: 10px;
+}
+
+.logintop{
+	height: 60px;
+	width: 400px;
+	background-color: #7eb2f3;
+	color: #000d10;
+}
+
+.registertop{
+	height: 60px;
+	width: 400px;
+	background-color: #bcf4cf;
+	color: #51c30a;
+}
+
+.textbox{
+	padding: 10px 40px;
+	background-color: #90e5f5;
+	border-radius: 10px;
+}
+
+::placeholder {
+	color: #0a1001;
+	opacity: 1;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+.btn {
+	padding: 10px 40px;
+	background-color: #f4b9b9;
+	color: #011112;
+	font-style: oblique;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+.worddark{
+	color: #100319;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+.wordlight{
+	color: #FFFFFF;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.one{
+	display: flex;
+	position: relative;
+}
+
+.one .two{
+	width: 225px;
+	height: 100%;
+	background: #ed8e6b;
+	padding: 30px 0px;
+	position: fixed;
+}
+
+.one .two h1{
+	color: #060301;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+	font-style: oblique;
+	font-weight: bold;
+}
+		
+.one .two h2{
+	color: #fff;
+	text-align: center;
+}
+		
+.one .two .active{
+	background: #f0f37a;
+}
+
+.one .two ul li{
+	text-align: center;
+	padding: 15px;
+	border-bottom: 0.1px solid rgb(10, 8, 8);
+	border-top: 0.1px solid rgb(17, 13, 13)
+}
+
+.one .two ul li a{
+	color: #151214;
+	display: block;
+}
+
+.one .two ul li a .side{
+	width: 25px;
+	text-align: center;
+}
+
+.one .content{
+	width: 100%;
+	margin-left: 200px;
+}
+
+.one .content .topbar{
+	text-align: center;
+	padding: 20px;
+	background: #ed8e6b;
+	color: rgb(13, 0, 0);
+}
+		
+.one .content .contentbar{
+	margin: auto;
+}
+
+.one .content .contentbar h1{
+	color: #020703;
+	text-align: center;
+	font-style: oblique;
+	font-weight: bold;
+}
